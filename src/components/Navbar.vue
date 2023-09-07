@@ -10,8 +10,8 @@
           <div class="text-sm lg:flex-grow mt-2 xl:mx-8 flex justify-between">
             <!-- Direcciones a la izquierda -->
             <div>
-              <router-link to="/addresses" class="mx-2 p-1 text-white hover:bg-opacity-50 rounded-lg">
-                Gestionar Direcciones
+              <router-link to="/profile" class="mx-2 p-1 text-white hover:bg-opacity-50 rounded-lg">
+                Mi perfil
               </router-link>
               <router-link to="/properties" class="mx-2 p-1 text-white hover:bg-opacity-50 rounded-lg">
                 Ver Propiedades
@@ -23,7 +23,7 @@
                 <div class="mx-2 p-1 text-white">
                 Usuario: JohnDoe
                 </div>
-                <button @click="logout" class="mx-2 p-1 text-white hover:bg-opacity-50 rounded-lg">
+                <button @click="logout" class="mx-2 p-1 hover:bg-opacity-50 rounded-lg text-black">
                     Cerrar sesión
                 </button>
                 </div>

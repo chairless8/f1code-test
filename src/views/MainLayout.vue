@@ -2,7 +2,7 @@
   <div class="flex flex-col min-h-screen">
     <NavbarComponent v-if="$route.path !== '/welcome'" />
     <main class="flex-grow custom-height mx-12 my-12">
-      <div class="p-8 bg-white bg-opacity-40 rounded-lg shadow-lg h-full  pt-12">
+      <div class="p-8 bg-white bg-opacity-20 rounded-lg shadow-lg h-full  pt-12">
         <router-view></router-view>
       </div>
     </main>

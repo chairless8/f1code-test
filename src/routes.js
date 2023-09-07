@@ -1,10 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import MainLayout from './views/MainLayout.vue';  // Importar MainLayout
+import MainLayout from './views/MainLayout.vue'; 
 import Login from './pages/Login.vue';
 import Register from './pages/Register.vue';
-import ManageAddresses from './views/ManageAddresses.vue';
 import ViewProperties from './views/ViewProperties.vue';
-import Dashboard from './views/Dashboard.vue';
+import MyProfile from './views/MyProfile.vue';
 import Welcome from './pages/Welcome.vue';
 
 import { useAuthStore } from '@/stores/auth';
@@ -15,8 +14,7 @@ const routes = [
     component: MainLayout, 
     meta: { requiresAuth: true },
     children: [
-      { path: 'dashboard', component: Dashboard },
-      { path: 'addresses', component: ManageAddresses },
+      { path: 'profile', component: MyProfile },
       { path: 'properties', component: ViewProperties }
       // Agrega aquí más rutas protegidas
     ]

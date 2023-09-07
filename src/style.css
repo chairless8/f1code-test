@@ -5,7 +5,7 @@
 :root {
   --primary-color: #e7f75f;
   --hover-color: #4d3c0e;
-  --button-bg: #1a1a1a;
+  --button-bg: #fff;
   --button-border-hover: #f3b93c;
   
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

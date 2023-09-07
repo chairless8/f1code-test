@@ -45,7 +45,7 @@ export default {
           const authStore = useAuthStore();
           authStore.setToken(data.token);
           console.log('Login successful', data);
-          this.$router.push('/dashboard');
+          this.$router.push('/profile');
         } else {
           console.log('Login failed', data);
         }
